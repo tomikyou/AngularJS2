@@ -1,0 +1,27 @@
+<!-- <div class="ContentSideSections Implementation" *ngIf="!router.urlTree.contains(router.createUrlTree(['node','list']))"> -->
+
+<div align="center">
+
+<div class="ui-grid ui-grid-responsive ui-grid-pad" style="width:250px;margin-bottom:10px">
+      <div class="ui-grid-row">
+          <div class="ui-grid-col-1"><p-radioButton name="group1" value="WINDOWS認証" [(ngModel)]="val1"></p-radioButton></div>
+          <div class="ui-grid-col-11"><label class="ui-widget">WINDOWS認証</label></div>
+      </div>
+      <div class="ui-grid-row">
+          <div class="ui-grid-col-1"><p-radioButton name="group1" value="USER認証" [(ngModel)]="val1"></p-radioButton></div>
+          <div class="ui-grid-col-11"><label class="ui-widget">USER認証</label></div>
+      </div>
+</div>
+
+<h3 class="first">{{val1||'USER'}}</h3>
+<input id="in" type="text" size="30" pInputText [(ngModel)]="text" /> &nbsp; {{text}}
+
+<h3>Password</h3>
+<input pPassword type="password"/>
+<button type="button" (click)="node()"  pButton label="LOGIN"></button>
+</div>
+<!-- </div> -->
+
+<div class="outer-outlet">
+  <router-outlet></router-outlet>
+</div>

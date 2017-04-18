@@ -1,0 +1,19 @@
+<p-growl [value]="msgs"></p-growl>
+<br>
+<table>
+<tr>
+<td valign="Top"><div style="height:350px">
+
+  <br>
+Selected Node: {{selectedFile ? selectedFile.label : 'none'}}
+<p-tree [value]="files" selectionMode="single" [(selection)]="selectedFile"
+    (onNodeSelect)="nodeSelect($event)" (onNodeUnselect)="nodeUnselect($event)"></p-tree></div>
+   </td>
+<td style="width:1500px;" valign="Top"> <router-outlet></router-outlet>
+  <button type="button" (click)="logout()"  pButton label="LOGOUT"></button>
+
+</td>
+</tr>
+</table>
+<!--<component [nodeName]="nodeName">
+</component>-->

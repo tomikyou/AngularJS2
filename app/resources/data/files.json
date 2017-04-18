@@ -1,0 +1,57 @@
+{
+    "data":
+    [
+        {
+            "label": " staff",
+            "data": "staff Folder",
+            "expandedIcon": "fa-folder-open",
+            "collapsedIcon": "fa-folder",
+            "children": [{
+                    "label": "User",
+                    "data": "User Folder",
+                    "expandedIcon": "fa-folder-open",
+                    "collapsedIcon": "fa-folder",
+                    "children": [{"label": "User 1", "icon": "fa-file-word-o", "data": "User 1"}, {"label": "User 2", "icon": "fa-file-word-o", "data": "User 2"}]
+                },
+                {
+                    "label": "Group",
+                    "data": "Group Folder",
+                    "expandedIcon": "fa-folder-open",
+                    "collapsedIcon": "fa-folder",
+                    "children": [{"label": "Group 1", "icon": "fa-file-word-o", "data": "Invoices for this month"}]
+                }]
+        },
+        {
+            "label": "department",
+            "data": "department Folder",
+            "expandedIcon": "fa-folder-open",
+            "collapsedIcon": "fa-folder",
+            "children": [
+                {"label": "department 1", "icon": "fa-file-image-o", "data": "Barcelona Photo"},
+                {"label": "department 2", "icon": "fa-file-image-o", "data": "PrimeFaces Logo"},
+                {"label": "department 3", "icon": "fa-file-image-o", "data": "PrimeUI Logo"}]
+        },
+        {
+            "label": "Team",
+            "data": "Team Folder",
+            "expandedIcon": "fa-folder-open",
+            "collapsedIcon": "fa-folder",
+            "children": [{
+                    "label": "Team A",
+                    "data": "Pacino Movies",
+                    "children": [{"label": "Member 1", "icon": "fa-file-video-o", "data": "Scarface Movie"}, {"label": "Member 2", "icon": "fa-file-video-o", "data": "Serpico Movie"}]
+                },
+                {
+                    "label": "Team B",
+                    "data": "De Niro Movies",
+                    "children": [{"label": "Member 3", "icon": "fa-file-video-o", "data": "Goodfellas Movie"}, {"label": "Member 4", "icon": "fa-file-video-o", "data": "Untouchables Movie"}]
+                }]
+        },
+        {
+            "label": "pie",
+            "data": "pie Folder",
+            "expandedIcon": "fa-folder-open",
+            "collapsedIcon": "fa-folder"
+        }
+    ]
+}
